@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -10,7 +11,9 @@ const Hero = () => {
         <p>
           Sa panahong ito, may dalawa kang pagpipilian: ang manalo o ang matuto.
         </p>
-        <button className="btn">Find a Tutor</button>
+        <Link to="/request" className="nav-links">
+          <button className="btn">Find a Tutor</button>
+        </Link>
       </div>
     </div>
   );

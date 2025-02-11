@@ -7,7 +7,8 @@ import program_3 from "../../assets/Sofia.png";
 import program_icon_1 from "../../assets/program-icon-1.png";
 import program_icon_2 from "../../assets/program-icon-2.png";
 import program_icon_3 from "../../assets/program-icon-3.png";
-//EMEL
+
+//Other Import
 // import program_icon_1 from "../../assets/perd1.jpg";
 // import program_icon_2 from "../../assets/perd2.jpg";
 // import program_icon_3 from "../../assets/perd3.png";
@@ -24,21 +25,21 @@ const About = () => {
           <img src={program_1} alt="" />
           <div className="caption">
             <img src={program_icon_1} alt="" />
-            <p>Galawang Movements Siwatimin</p>
+            <p>Learn with Us!</p>
           </div>
         </div>
         <div className="about">
           <img src={program_2} alt="" />
           <div className="caption">
             <img src={program_icon_2} alt="" />
-            <p>HapHart Movements</p>
+            <p>How you can excel.</p>
           </div>
         </div>
         <div className="about">
           <img src={program_3} alt="" />
           <div className="caption">
             <img src={program_icon_3} alt="" />
-            <p>Lez G</p>
+            <p>Courses</p>
           </div>
         </div>
       </div>
